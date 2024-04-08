@@ -1,4 +1,4 @@
-# Net made easy
+# SimplENet
 
 This is a quickly cobbled together wrapper around [pyenet](https://github.com/aresch/pyenet), which itself wraps the [ENet](https://github.com/lsalzman/enet) C++ library, enabling reliable network communication over UDP.
 
@@ -24,9 +24,10 @@ git clone https://github.com/cartertemm/simplenet.git
 python setup.py install
 ```
 
-Check the examples folder for things you can do, and the code for how to do more. It's a relatively small .py file so you can do the ugly and copy it between projects.
+Check the examples folder for things you can do, and the code for how to do more. It's a relatively small .py file so if you must, you can do the ugly and copy it between projects if needed.
+
 ## Contributing
 
 Contributions are welcomed and encouraged. Hopefully someone somewhere gets some use out of this thing. If a feature isn't working, complain about it in an issue with the understanding that I don't have endless bandwidth for this code, though I will make every effort to review PRs in a timely manner.
 
-Happy hacking!
+Happy hacking! :)
