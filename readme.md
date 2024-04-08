@@ -2,7 +2,7 @@
 
 This is a quickly cobbled together wrapper around [pyenet](https://github.com/aresch/pyenet), which itself wraps the [ENet](https://github.com/lsalzman/enet) C++ library, enabling reliable network communication over UDP.
 
-The goal here was to make it as easy as possible to spin up multiplayer prototypes in Python without having to think about low-level conventions or scalability. Modeled off of the BGT networking engine, if you know anything about that you shouldn't have a proboem. It has been tested and confirmed to work on Linux, Mac OS, and windows.
+The goal here was to make it as easy as possible to spin up multiplayer prototypes in Python without having to think about low-level conventions or scalability. Modeled off of the BGT networking engine with more goodies thrown in, if you know anything about that you shouldn't have a problem. It has been tested and confirmed to work on Linux, Mac OS, and windows.
 
 ## Disclaimer
 
@@ -28,6 +28,6 @@ Check the examples folder for things you can do, and the code for how to do more
 
 ## Contributing
 
-Contributions are welcomed and encouraged. Hopefully someone somewhere gets some use out of this thing. If a feature isn't working, complain about it in an issue with the understanding that I don't have endless bandwidth for this code, though I will make every effort to review PRs in a timely manner.
+Contributions are welcomed and encouraged. Hopefully someone somewhere gets some use out of this thing. If a feature isn't working, complain about it in an issue with the understanding that I don't have endless bandwidth for this code, though I will make every effort to review pull requests in a timely manner.
 
 Happy hacking! :)
